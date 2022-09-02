@@ -1,0 +1,152 @@
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+}
+
+label{
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 1px #000000;
+}
+/* tittle */
+#navbarTogglerDemo02 a{
+     background: rgba(0, 0, 0, .3);
+}
+
+.navbar-toggler{
+  background: rgba(0, 0, 0, .3);
+}
+#tittle {
+  /* background-color: #ff4c68; */
+  text-align: center;
+  background-image: url('../images/Tittle_image3.png');
+  height: 710px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+}
+
+#tittle .container-fluid {
+  padding: 10%;
+
+}
+
+#tittle h1 {
+  padding-bottom: 40px;
+  font-family: 'Montserrat, sans-serif';
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+#tittle h3{
+  text-shadow: 2px 2px 2px #000000;
+}
+
+#tittle input {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.navbar-brand {
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px #000000;
+  padding-left: 30px;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.form-select {
+  width: 180px;
+  display: inline;
+}
+
+.Search-form {
+  padding: 40px 150px;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, .3);
+}
+
+/* features */
+#features {
+  /* padding: 150px 100px 150px 100px; */
+  padding: 10% 7%;
+  text-align: center;
+  background-color: white;
+
+}
+
+.fa-solid {
+  color: #ef8172;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.featuresp {
+  color: #8f8f8f;
+}
+
+.featuresh {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'montserrat-bold';
+}
+
+/* about */
+
+#about{
+  background-color:#ef8172;
+  padding: 3% 7%;
+}
+
+.Aboutimg{
+display: block;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 2%;
+}
+
+#footer p{
+  margin: 0;
+}
+.fa-facebook{
+  font-size: 50px;
+  padding-bottom: 10px;
+  color: #4267B2;
+}
+
+
+@media (max-width:1270px) {
+  .Search-form {
+    padding: 40px 60px;
+
+  }
+}
+
+@media (max-width:768px) {
+  #tittle{
+    height: auto;
+    font-size: auto;
+  }
+}
